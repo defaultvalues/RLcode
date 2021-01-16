@@ -8,7 +8,7 @@ e = 0.01;
 value(1) = 0;
 
 for i = 1:200
-    if rand(1) < 1-e
+  if rand(1) < 1-e
         [~, A] = max(Q);
     else
         A = randi(5,1);
